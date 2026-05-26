@@ -1,4 +1,4 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 🤖 Agente Financeiro Inteligente com IA Generativa ☕
 
 ## Contexto
 
@@ -14,11 +14,11 @@ Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots
 
 ---
 
-## O Que Você Deve Entregar
+## O Que foi Entregue
 
 ### 1. Documentação do Agente
 
-Defina **o que** seu agente faz e **como** ele funciona:
+Definido **o que** este agente faz e **como** ele funciona:
 
 - **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
 - **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
@@ -31,7 +31,7 @@ Defina **o que** seu agente faz e **como** ele funciona:
 
 ### 2. Base de Conhecimento
 
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
+Utilizado **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar este agente:
 
 | Arquivo | Formato | Descrição |
 |---------|---------|-----------|
@@ -40,7 +40,6 @@ Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alim
 | `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
 | `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
 
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
 
 📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
 
@@ -48,7 +47,7 @@ Você pode adaptar ou expandir esses dados conforme seu caso de uso.
 
 ### 3. Prompts do Agente
 
-Documente os prompts que definem o comportamento do seu agente:
+Documentado os prompts que definem o comportamento deste agente:
 
 - **System Prompt:** Instruções gerais de comportamento e restrições
 - **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
@@ -60,10 +59,10 @@ Documente os prompts que definem o comportamento do seu agente:
 
 ### 4. Aplicação Funcional
 
-Desenvolva um **protótipo funcional** do seu agente:
+Desenvolvido um **protótipo funcional** deste agente:
 
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
+- Chatbot interativo com [Streamlit](https://streamlit.io/)
+- Integração com LLM Local [Ollama](https://ollama.com/)
 - Conexão com a base de conhecimento
 
 📁 **Pasta:** [`src/`](./src/)
@@ -72,7 +71,7 @@ Desenvolva um **protótipo funcional** do seu agente:
 
 ### 5. Avaliação e Métricas
 
-Descreva como você avalia a qualidade do seu agente:
+Descrito como foi avaliada a qualidade das respostas deste agente:
 
 **Métricas Sugeridas:**
 - Precisão/assertividade das respostas
@@ -85,9 +84,9 @@ Descreva como você avalia a qualidade do seu agente:
 
 ### 6. Pitch
 
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
+Gravado um **pitch de 3 minutos** (estilo elevador) apresentando:
 
-- Qual problema seu agente resolve?
+- Qual problema este agente resolve?
 - Como ele funciona na prática?
 - Por que essa solução é inovadora?
 
@@ -95,7 +94,7 @@ Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
 
 ---
 
-## Ferramentas Sugeridas
+## Ferramentas Sugeridas para você replicar, testar e melhorar este modelo
 
 Todas as ferramentas abaixo possuem versões gratuitas:
 
@@ -147,3 +146,9 @@ Todas as ferramentas abaixo possuem versões gratuitas:
 3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
 4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
 5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
+
+---
+
+<p align="center">
+Feito com ❤️ e muito ☕ por <b>Joice Pinheli</b>
+</p>
